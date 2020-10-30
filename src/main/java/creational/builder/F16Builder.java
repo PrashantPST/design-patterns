@@ -1,7 +1,5 @@
 package creational.builder;
 
-import creational.prototype.F16;
-
 public class F16Builder extends AircraftBuilder {
     F16 f16;
 
