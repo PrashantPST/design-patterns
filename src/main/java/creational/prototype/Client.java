@@ -1,7 +1,7 @@
+package creational.prototype;
+
 public class Client {
-
-    public void main() {
-
+    public static void main(String[] args) {
         IAircraftPrototype prototype = new F16();
 
         // Create F16-A

@@ -1,5 +1,6 @@
-public class Director {
+package creational.builder;
 
+public class Director {
     AircraftBuilder aircraftBuilder;
 
     public Director(AircraftBuilder aircraftBuilder) {

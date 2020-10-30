@@ -1,5 +1,6 @@
-public class Boeing747Builder extends AircraftBuilder {
+package creational.builder;
 
+public class Boeing747Builder extends AircraftBuilder {
     Boeing747 boeing747;
 
     @Override

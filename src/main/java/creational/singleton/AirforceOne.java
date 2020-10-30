@@ -1,3 +1,5 @@
+package creational.singleton;
+
 public class AirforceOne {
 
     // The sole instance of the class
@@ -24,9 +26,9 @@ public class AirforceOne {
     }
 }
 
-public class Client {
+class Client {
 
-    public void main() {
+    public static void main(String[] args) {
         AirforceOne airforceOne = AirforceOne.getInstance();
         airforceOne.fly();
     }

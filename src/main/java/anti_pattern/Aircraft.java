@@ -1,3 +1,5 @@
+package anti_pattern;
+
 public class Aircraft {
     private String type;
     private String color;

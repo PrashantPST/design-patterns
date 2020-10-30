@@ -1,5 +1,6 @@
-public class F16 implements IAircraftPrototype {
+package creational.prototype;
 
+public class F16 implements IAircraftPrototype {
     // default engine
     F16Engine f16Engine = new F16Engine();
 

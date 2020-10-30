@@ -1,3 +1,4 @@
+package creational.prototype;
 /*
 This lesson discusses how new objects can be created from existing objects using the prototype pattern.
 Prototype pattern involves creating new objects by copying existing objects.
@@ -25,5 +26,7 @@ There will be no sharing of any fields, nested or otherwise between the prototyp
 
 /*
 In Java the root Object class exposes a clone method. The class implements the interface java.lang.Cloneable.
-
  */
+
+public class Prototype {
+}

@@ -1,3 +1,5 @@
+package structural;
+
 /*
 Structural patterns are concerned with the composition of classes i.e. how the classes are made up or constructed. These include:
 
@@ -10,3 +12,7 @@ Flyweight Pattern
 Proxy Pattern
 
  */
+
+
+public class Structural {
+}

@@ -1,3 +1,5 @@
+package creational.builder;
+
 /*
 As the name implies, a builder pattern is used to build objects.
 Another hypothetical example could be creating documents of type pdf or html. Consider the snippet below:
@@ -18,3 +20,7 @@ Another hypothetical example could be creating documents of type pdf or html. Co
 The above method can appear in a director or client code and different document types can be built by varying the concrete type of
 the DocumentBuilder passed into the method. We could have a HtmlDocumentBuilder and a PdfDocumentBuilder derive from the abstract class DocumentBuilder.
  */
+
+
+public class Builder {
+}

@@ -1,5 +1,6 @@
-public interface IAircraftPrototype {
+package creational.prototype;
 
+public interface IAircraftPrototype {
     void fly();
 
     IAircraftPrototype clone();
