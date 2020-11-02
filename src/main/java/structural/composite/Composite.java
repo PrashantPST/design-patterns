@@ -72,6 +72,16 @@ class F16 implements IAircraft, IAlliancePart {
     public void fly() {
 
     }
+
+    @Override
+    public void land() {
+
+    }
+
+    @Override
+    public float getWeight() {
+        return 0;
+    }
 }
 
 class C130Hercules implements IAircraft, IAlliancePart {
@@ -85,5 +95,15 @@ class C130Hercules implements IAircraft, IAlliancePart {
     @Override
     public void fly() {
 
+    }
+
+    @Override
+    public void land() {
+
+    }
+
+    @Override
+    public float getWeight() {
+        return baseWeight;
     }
 }

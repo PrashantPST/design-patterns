@@ -42,4 +42,14 @@ public class Adapter implements IAircraft {
         String fuelUsed = hotAirBalloon.inflateWithGas();
         hotAirBalloon.fly(fuelUsed);
     }
+
+    @Override
+    public void land() {
+
+    }
+
+    @Override
+    public float getWeight() {
+        return 0;
+    }
 }

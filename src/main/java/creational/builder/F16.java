@@ -6,4 +6,14 @@ public class F16 implements IAircraft {
     public void fly() {
 
     }
+
+    @Override
+    public void land() {
+
+    }
+
+    @Override
+    public float getWeight() {
+        return 0;
+    }
 }
