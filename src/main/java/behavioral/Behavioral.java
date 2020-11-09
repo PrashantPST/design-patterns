@@ -1,7 +1,6 @@
 package behavioral;
 
 /*
-
 Behavioral design patterns dictate the interaction of classes and objects amongst each other and the delegation of responsibility. These include:
 
 Interpreter Pattern
@@ -15,8 +14,8 @@ Observer Pattern
 State Pattern
 Strategy Pattern
 Visitor Pattern
-
  */
+
 
 public class Behavioral {
 }
